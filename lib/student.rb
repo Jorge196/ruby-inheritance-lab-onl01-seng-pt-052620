@@ -1,7 +1,6 @@
 class Student < User
-  @@knowledge = []
 
-  def learn
-    @@knowledge
-  end
+  def initialize(name)
+    @name = name
+    @knowledge = knowledge
 end
